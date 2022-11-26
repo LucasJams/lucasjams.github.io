@@ -1,3 +1,6 @@
 function haveFun() {
-	a='5';while(true)a=a+a+a+a+a+a+a;
+txt = "a";
+while(1){
+    txt = txt += "a";    //add as much as the browser can handle
+}
 }
