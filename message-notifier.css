@@ -16,6 +16,7 @@
 
 #message-notif {
     float: right;
+    cursor: pointer;
 }
 
 #click-box {
