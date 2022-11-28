@@ -68,6 +68,7 @@ function addNotifyIcon()
 {
     var container = document.createElement("div");
     container.id = "message-notif";
+    container.onclick = goToMessages;
 
     var icon = document.createElement("object");
     icon.id = "message-svg";
