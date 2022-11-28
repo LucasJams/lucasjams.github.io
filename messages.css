@@ -1,0 +1,76 @@
+#message-list {
+    background-color: rgb(216, 216, 216);
+    height: 60vh;
+    width: 90vw;
+    border-radius: 20px;
+    padding: 20px;
+    overflow-y: scroll;
+    margin: 20px;
+    border: solid black 2px;
+}
+
+.msg {
+    background-color: rgb(122, 159, 160);
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px 20px 20px 20px;
+    font-size: large;
+}
+
+.msg h3 {
+    margin: 20px 20px 20px 20px;
+    float:left; display:inline;
+}
+
+.msg p {
+    background-color: rgb(157, 196, 197);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    min-height: 10vh;
+}
+
+.msg p img {
+    border-radius: 15px;
+    margin-right: 100%;
+    height: 20vh;
+}
+
+.pfl-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    float:left; display:inline;
+}
+
+#unread-text {
+    font-weight: bolder;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(153, 153, 153);
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0px;
+}
+
+#back-btn {
+    width: 140px;
+    height: 40px;
+    margin: 20px;
+    background-color: antiquewhite;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#back-btn:hover {
+    background-color: burlywood;
+}
