@@ -1,5 +1,5 @@
 var button1, button2, button3;
-var code = [4, 7, 2];
+var code = [4, 1, 3];
 var elems = [];
 var nums = [0, 0, 0];
 var lock;
